@@ -133,5 +133,6 @@ top: 18px !important;
     background: $color2;
     color: $color5;
 }
+
 .fab, .fas{@include icon;}
 .fab:hover, .fas:hover{@include hover;}
