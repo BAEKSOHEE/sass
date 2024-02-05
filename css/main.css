@@ -15,11 +15,11 @@ header {
 }
 
 header h1 {
-  padding: 10px;
+  padding: 10px 0px;
 }
 
 header img {
-  height: 60px;
+  height: 70px;
 }
 
 dl {
@@ -40,7 +40,8 @@ dt {
 
 dd {
   text-indent: 12px;
-  border-bottom: 1px solid #c5c4c4;
+  background: #eaeaea;
+  border-bottom: 1px solid #c8c8c8;
 }
 
 dd a {
@@ -48,25 +49,24 @@ dd a {
   text-decoration: none;
   line-height: 40px;
   transition: 0.3s;
+  display: block;
 }
 
-dd a:hover{
+dd a:hover {
   font-weight: bold;
   background: rgb(255, 255, 159);
   transform: scale(1.1);
   box-shadow: 0px 0px 3px rgb(172, 172, 172);
-  text-indent:30px;
-  display: inline-block;
-
+  text-indent: 50px;
 }
 
 footer {
+  color: #fff;
   background: #222;
   text-align: center;
-  color: #fff;
   line-height: 60px;
 }
 
 footer address {
-  font-size: normal;
+  font-style: normal;
 }/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,90 @@
+@charset "UTF-8";
+body {
+  font-family: "맑은 고딕", arial, sans-serif;
+  font-size: 12px;
+  color: #333;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+#wrap {
+  background: #ffff00;
+  width: 1280px;
+  height: 400px;
+  margin: 0px auto;
+}
+
+#box01 {
+  width: 1280px;
+  background: #f00;
+  color: #fff;
+}
+
+#box02 {
+  width: 1280px;
+  background: #0f0;
+  color: #fff;
+}
+
+.btn {
+  width: 200px;
+  height: 30px;
+  border: 1px solid #ffff00;
+  text-align: center;
+  color: #fff;
+  background: #ccc;
+}
+
+.btn03 {
+  width: 200px;
+  height: 30px;
+  border: 1px solid #ffff00;
+  text-align: center;
+  color: #fff;
+  background: #f00;
+}
+
+.btn04 {
+  width: 200px;
+  height: 30px;
+  border: 1px solid #ffff00;
+  text-align: center;
+  color: #fff;
+  background: #0f0;
+}
+
+.btn05 {
+  width: 200px;
+  height: 30px;
+  border: 1px solid #ffff00;
+  text-align: center;
+  color: #fff;
+  background: orange;
+}
+
+.list01 li:first-child {
+  border: 1px solid #f00;
+  margin-bottom: 3px;
+}
+
+.list01 li:nth-child(2) {
+  border: 3px solid #0f0;
+  margin-bottom: 3px;
+}
+
+.list01 li:nth-child(3) {
+  border: 3px double #00f;
+  margin-bottom: 3px;
+}
+
+.list01 li:nth-child(4) {
+  border: 3px dotted orange;
+  margin-bottom: 3px;
+}
+
+.list01 li:last-child {
+  border: 1px dotted #00f;
+  margin-bottom: 3px;
+}/*# sourceMappingURL=style.css.map */
